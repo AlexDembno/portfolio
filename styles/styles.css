@@ -2,422 +2,428 @@ h1,
 h2,
 h3,
 p {
-  margin-top: 0;
-  margin-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 ul,
 ol {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
 }
 
 img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+	display: block;
+	max-width: 100%;
+	height: auto;
 }
 
 button {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 li {
-  list-style: none;
+	list-style: none;
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	color: #333;
+	margin: 0;
+	padding: 0;
+	line-height: 1.6;
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  background-color: #333;
-  color: #fff;
-  padding: 10px 0;
-  text-align: center;
-  box-shadow: 1px 3px 8px 2px #666363;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	background-color: #333;
+	color: #fff;
+	padding: 10px 0;
+	text-align: center;
+	box-shadow: 1px 3px 8px 2px #666363;
 }
 
 .contact {
-  margin-left: 20px;
+	margin-left: 20px;
 }
 
-.right {
-  display: flex;
-  justify-content: space-evenly;
+.header-list {
+	display: flex;
+	justify-content: space-evenly;
 }
 
-.right li {
-  margin-left: 25px;
+.header-list li {
+	margin-left: 25px;
 }
 
 .item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .list {
-  margin-bottom: 25px;
+	margin-bottom: 25px;
 }
 
 a i {
-  font-size: 24px;
-  color: #007bff;
+	font-size: 24px;
+	color: #007bff;
 }
 
 a i:hover {
-  color: white;
+	color: white;
+}
+
+.link i {
+	margin-top: 11px;
+}
+
+.link i:hover {
+	color: #333;
 }
 
 header h1 {
-  margin: 0;
-  font-size: 2.5em;
+	margin: 0;
+	font-size: 2.5em;
 }
 
 nav {
-  text-align: center;
-  margin: 20px 0;
+	text-align: center;
+	margin: 20px 0;
 }
 
 nav a {
-  margin: 0 15px;
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
+	margin: 0 15px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
 }
 
 nav a:hover {
-  color: #007bff;
+	color: #007bff;
 }
 
 .container {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 20px;
+	margin: 0 auto;
+	padding: 20px;
+	/* max-width: 320px; */
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
-  .container {
-    max-width: 767px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+	.container {
+		max-width: 767px;
+	}
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .container {
-    max-width: 1000px;
-  }
+	.container {
+		max-width: 1000px;
+	}
 }
 
 section {
-  margin-bottom: 40px;
+	margin-bottom: 40px;
 }
 
 h2 {
-  font-size: 2em;
-  margin-bottom: 10px;
-  color: #007bff;
+	font-size: 2em;
+	margin-bottom: 10px;
+	color: #007bff;
 }
 
 h3 {
-  font-size: 1.5em;
-  margin-bottom: 10px;
-  color: #007bff;
+	font-size: 1.5em;
+	margin-bottom: 10px;
 }
 
 p {
-  margin: 10px 0;
+	margin: 10px 0;
 }
 
 footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 10px 0;
-  margin-top: 40px;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 10px 0;
+	margin-top: 40px;
 }
 
 footer p {
-  margin: 0;
+	margin: 0;
 }
 
 .projects {
-  margin-bottom: 60px;
-  border-bottom: 2px solid black;
+	margin-bottom: 60px;
+	border-bottom: 2px solid black;
 }
 
 .projects a {
-  margin: 10px 0;
-  color: #007bff;
-  text-decoration: none;
+	margin: 10px 0;
+	color: #333;
+	text-decoration: none;
 }
 
 .projects a:hover {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 .brovko {
-  margin: 0 auto;
-  position: relative;
+	margin: 0 auto;
+	position: relative;
 }
 
 .brovko__anim {
-  position: absolute;
-  left: -200px;
-  z-index: -1;
-  width: 768px;
-  height: 560px;
-  background-image: url("../img/YellowSpotMobile.png");
-  background-size: cover;
-  background-position: bottom;
+	position: absolute;
+	left: -200px;
+	z-index: -1;
+	width: 768px;
+	height: 560px;
+	background-image: url("../img/YellowSpotMobile.png");
+	background-size: cover;
+	background-position: bottom;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .brovko__anim {
-    left: 100px;
-  }
+	.brovko__anim {
+		left: 100px;
+	}
 }
 
 @media screen and (min-width: 1024px) {
-  .brovko__anim {
-    left: 400px;
-  }
+	.brovko__anim {
+		left: 400px;
+	}
 }
 
 .pet {
-  margin: 0 auto;
-  position: relative;
+	margin: 0 auto;
+	position: relative;
 }
 
 .pet__anim {
-  position: absolute;
-  left: -50px;
-  z-index: -1;
-  width: 768px;
-  height: 460px;
-  background-image: url("../img/pets_mob_2x.png");
-  background-size: 500px;
-  background-repeat: no-repeat;
-  background-position: bottom;
+	position: absolute;
+	left: -50px;
+	z-index: -1;
+	width: 768px;
+	height: 460px;
+	background-image: url("../img/pets_mob_2x.png");
+	background-size: 500px;
+	background-repeat: no-repeat;
+	background-position: bottom;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .pet__anim {
-    left: 200px;
-  }
+	.pet__anim {
+		left: 200px;
+	}
 }
 
 @media screen and (min-width: 1024px) {
-  .pet__anim {
-    left: 600px;
-  }
+	.pet__anim {
+		left: 600px;
+	}
 }
 
 .text {
-  text-align: justify;
-  width: 250px;
+	text-align: justify;
+	width: 250px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-  .text {
-    width: 500px;
-  }
+	.text {
+		width: 500px;
+	}
 }
 
 @media screen and (min-width: 1280px) {
-  .text {
-    width: 500px;
-  }
+	.text {
+		width: 500px;
+	}
 }
 
 .about {
-  text-align: justify;
+	text-align: justify;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .about {
-    max-width: 768px;
-  }
+	.about {
+		max-width: 768px;
+	}
 }
 
 @media screen and (min-width: 1024px) {
-  .about {
-    max-width: 1024px;
-  }
+	.about {
+		max-width: 1024px;
+	}
 }
 
 .ice {
-  margin: 0 auto;
-  position: relative;
+	margin: 0 auto;
+	position: relative;
 }
 
 .ice__anim {
-  position: absolute;
-  top: -50px;
-  left: -50px;
-  z-index: -1;
-  width: 768px;
-  height: 460px;
-  background-image: url("../img/ice-cream-hero-170x219@2x.9e217ab3.png");
-  background-size: 500px;
-  background-repeat: no-repeat;
-  background-position: bottom;
+	position: absolute;
+	top: -50px;
+	left: -50px;
+	z-index: -1;
+	width: 768px;
+	height: 460px;
+	background-image: url("../img/ice-cream-hero-170x219@2x.9e217ab3.png");
+	background-size: 500px;
+	background-repeat: no-repeat;
+	background-position: bottom;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .ice__anim {
-    left: 250px;
-  }
+	.ice__anim {
+		left: 250px;
+	}
 }
 
 @media screen and (min-width: 1024px) {
-  .ice__anim {
-    left: 600px;
-  }
+	.ice__anim {
+		left: 600px;
+	}
 }
 
 .film {
-  margin: 0 auto;
-  position: relative;
+	margin: 0 auto;
+	position: relative;
 }
 
 .film__anim {
-  position: absolute;
-  top: -50px;
-  left: -50px;
-  z-index: -1;
-  width: 768px;
-  height: 460px;
-  background-image: url("../img/camera-2029821_1280.png");
-  background-size: 300px;
-  background-repeat: no-repeat;
-  background-position: bottom;
+	position: absolute;
+	top: -50px;
+	left: -50px;
+	z-index: -1;
+	width: 768px;
+	height: 460px;
+	background-image: url("../img/camera-2029821_1280.png");
+	background-size: 300px;
+	background-repeat: no-repeat;
+	background-position: bottom;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .film__anim {
-    left: 270px;
-  }
+	.film__anim {
+		left: 270px;
+	}
 }
 
 @media screen and (min-width: 1024px) {
-  .film__anim {
-    left: 600px;
-  }
+	.film__anim {
+		left: 600px;
+	}
 }
 
 .web {
-  margin: 0 auto;
-  position: relative;
+	margin: 0 auto;
+	position: relative;
 }
 
 .web__anim {
-  position: absolute;
-  top: -230px;
-  left: -50px;
-  z-index: 1;
-  width: 768px;
-  height: 460px;
-  background-image: url("../img/information-technology-5327553_1280.png");
-  background-size: 200px;
-  background-repeat: no-repeat;
-  background-position: bottom;
+	position: absolute;
+	top: -230px;
+	left: -50px;
+	z-index: 1;
+	width: 768px;
+	height: 460px;
+	background-image: url("../img/information-technology-5327553_1280.png");
+	background-size: 200px;
+	background-repeat: no-repeat;
+	background-position: bottom;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .web__anim {
-    left: 270px;
-    background-size: 300px;
-  }
+	.web__anim {
+		left: 270px;
+		background-size: 300px;
+	}
 }
 
 @media screen and (min-width: 1024px) {
-  .web__anim {
-    top: -150px;
-    left: 570px;
+	.web__anim {
+		top: -150px;
+		left: 570px;
 
-    background-size: 300px;
-  }
+		background-size: 300px;
+	}
 }
 
 .web__yellowSpot_anim {
-  animation-name: imageAnimation;
-  animation-duration: 3000ms;
+	animation-name: imageAnimation;
+	animation-duration: 3000ms;
 }
 
 @keyframes imageAnimation {
-  0% {
-    left: 0px;
-    opacity: 0;
-  }
+	0% {
+		left: 0px;
+		opacity: 0;
+	}
 
-  100% {
-    left: 500px;
-    opacity: 1;
-  }
+	100% {
+		left: 500px;
+		opacity: 1;
+	}
 }
 
 .animated_element {
-  opacity: 0;
-  transform: translateX(200px);
-  transition: opacity 1s ease, transform 1s ease;
+	opacity: 0;
+	transform: translateX(200px);
+	transition: opacity 1s ease, transform 1s ease;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .animated_element {
-    opacity: 0;
-    transform: translateX(-100px);
-    transition: opacity 2s ease, transform 2s ease;
-  }
+	.animated_element {
+		opacity: 0;
+		transform: translateX(-100px);
+		transition: opacity 2s ease, transform 2s ease;
+	}
 }
 
 @media screen and (min-width: 1024px) {
-  .animated_element {
-    opacity: 0;
-    transform: translateX(-500px);
-    transition: opacity 2s ease, transform 3s ease;
-  }
+	.animated_element {
+		opacity: 0;
+		transform: translateX(-500px);
+		transition: opacity 2s ease, transform 3s ease;
+	}
 }
 
 .animated_element.visible {
-  opacity: 1;
-  transform: translateX(0);
+	opacity: 1;
+	transform: translateX(0);
 }
 
 .cont {
-  position: relative;
+	position: relative;
 }
 
 .hover-text {
-  position: absolute;
-  bottom: 60%;
+	position: absolute;
+	bottom: 60%;
 
-  right: -1;
-  width: 150px;
-  background-color: rgba(0, 0, 0, 0.9);
-  color: white;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.3s ease, visibility 0.3s ease;
-  text-align: center;
-  padding: 10px;
+	right: -1;
+	width: 150px;
+	background-color: rgba(0, 0, 0, 0.9);
+	color: white;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.3s ease, visibility 0.3s ease;
+	text-align: center;
+	padding: 10px;
 }
 
 .cont:hover .hover-text {
-  opacity: 1;
-  visibility: visible;
+	opacity: 1;
+	visibility: visible;
 }
