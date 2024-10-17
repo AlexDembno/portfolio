@@ -30,6 +30,10 @@ li {
 a {
 	text-decoration: none;
 }
+html,
+body {
+	overflow-x: hidden; /* Отключает горизонтальный скролл */
+}
 
 body {
 	font-family: Arial, sans-serif;
@@ -381,6 +385,7 @@ footer p {
 	opacity: 0;
 	transform: translateX(200px);
 	transition: opacity 1s ease, transform 1s ease;
+	pointer-events: none;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
