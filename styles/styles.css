@@ -106,10 +106,25 @@ a i:focus {
 
 .link:hover,
 .link:focus {
-	font-size: 25px;
 	background-image: linear-gradient(266deg, rgba(33, 51, 51, 0.9668242296918768) 0%, rgba(0, 123, 255, 1) 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+
+.link {
+	display: inline-block; /* Чтобы анимация корректно срабатывала */
+	text-decoration: none; /* Убираем подчеркивание */
+	color: inherit; /* Наследуем цвет текста */
+	transition: transform 0.3s ease, color 0.3s ease; /* Плавный переход */
+
+	&:hover {
+		transform: scale(1.2); /* Увеличиваем размер на 20% */
+		color: #007bff; /* Меняем цвет, если нужно */
+	}
+
+	&:first-of-type {
+		margin-right: 1rem; /* Отступ справа только у первого линка */
+	}
 }
 
 .title {
@@ -262,6 +277,36 @@ footer p {
 
 @media screen and (min-width: 1024px) {
 	.pet__anim {
+		left: 600px;
+	}
+}
+
+.law {
+	margin: 0 auto;
+	position: relative;
+}
+
+.law__anim {
+	position: absolute;
+	top: -50px;
+	left: -50px;
+	z-index: -1;
+	width: 768px;
+	height: 560px;
+	background-image: url("../img/law.png");
+	background-size: 400px;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.law__anim {
+		left: 200px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.law__anim {
 		left: 600px;
 	}
 }
