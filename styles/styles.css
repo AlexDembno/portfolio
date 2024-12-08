@@ -112,18 +112,18 @@ a i:focus {
 }
 
 .link {
-	display: inline-block; /* Чтобы анимация корректно срабатывала */
-	text-decoration: none; /* Убираем подчеркивание */
-	color: inherit; /* Наследуем цвет текста */
-	transition: transform 0.3s ease, color 0.3s ease; /* Плавный переход */
+	display: inline-block;
+	text-decoration: none;
+	color: inherit;
+	transition: transform 0.3s ease, color 0.3s ease;
 
 	&:hover {
-		transform: scale(1.2); /* Увеличиваем размер на 20% */
-		color: #007bff; /* Меняем цвет, если нужно */
+		transform: scale(1.2);
+		color: #007bff;
 	}
 
 	&:first-of-type {
-		margin-right: 1rem; /* Отступ справа только у первого линка */
+		margin-right: 1rem;
 	}
 }
 
@@ -438,23 +438,6 @@ footer p {
 	}
 }
 
-/* .web__yellowSpot_anim {
-	animation-name: imageAnimation;
-	animation-duration: 3000ms;
-}
-
-@keyframes imageAnimation {
-	0% {
-		left: 0px;
-		opacity: 0;
-	}
-
-	100% {
-		left: 500px;
-		opacity: 1;
-	}
-} */
-
 .animated_text {
 	opacity: 0;
 	transform: translateY(100px);
@@ -521,7 +504,7 @@ footer p {
 
 .animated_title {
 	display: inline-block;
-	opacity: 1; /* теперь видим */
+	opacity: 1;
 	overflow: hidden;
 }
 
