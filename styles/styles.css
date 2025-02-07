@@ -233,8 +233,8 @@ footer p {
 	position: absolute;
 	left: 250px;
 	z-index: -1;
-	width: 368px;
-	height: 260px;
+	width: 200px;
+	height: 150px;
 	background-image: url("../img/Brovko.png");
 	background-size: cover;
 }
@@ -242,7 +242,9 @@ footer p {
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.brovko__anim {
 		top: 50px;
-		left: 440px;
+		left: 520px;
+		width: 268px;
+		height: 260px;
 	}
 }
 
@@ -271,7 +273,7 @@ footer p {
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.pet__anim {
-		left: 200px;
+		left: 390px;
 	}
 }
 
@@ -301,7 +303,7 @@ footer p {
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.law__anim {
-		left: 200px;
+		left: 310px;
 	}
 }
 
@@ -334,7 +336,7 @@ footer p {
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.cards__anim {
-		left: 200px;
+		left: 350px;
 	}
 }
 
@@ -397,7 +399,7 @@ footer p {
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.ice__anim {
-		left: 250px;
+		left: 300px;
 	}
 }
 
@@ -427,7 +429,7 @@ footer p {
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.film__anim {
-		left: 270px;
+		left: 300px;
 	}
 }
 
@@ -457,7 +459,7 @@ footer p {
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.web__anim {
-		left: 270px;
+		left: 300px;
 		background-size: 300px;
 	}
 }
@@ -485,7 +487,7 @@ footer p {
 
 .animated_element {
 	opacity: 0;
-	transform: translateX(200px);
+	transform: translateX(100px);
 	transition: opacity 1s ease, transform 1s ease;
 	pointer-events: none;
 }
