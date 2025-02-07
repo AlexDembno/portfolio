@@ -231,7 +231,7 @@ footer p {
 
 .brovko__anim {
 	position: absolute;
-	left: 150px;
+	left: 250px;
 	z-index: -1;
 	width: 368px;
 	height: 260px;
@@ -259,7 +259,7 @@ footer p {
 
 .pet__anim {
 	position: absolute;
-	left: -50px;
+	left: 130px;
 	z-index: -1;
 	width: 768px;
 	height: 460px;
@@ -289,7 +289,7 @@ footer p {
 .law__anim {
 	position: absolute;
 	top: -50px;
-	left: -50px;
+	left: 30px;
 	z-index: -1;
 	width: 768px;
 	height: 560px;
@@ -319,7 +319,7 @@ footer p {
 .cards__anim {
 	position: absolute;
 	top: -50px;
-	left: -50px;
+	left: 100px;
 	z-index: -1;
 	width: 768px;
 	height: 560px;
@@ -385,7 +385,7 @@ footer p {
 .ice__anim {
 	position: absolute;
 	top: -50px;
-	left: -50px;
+	left: 50px;
 	z-index: -1;
 	width: 768px;
 	height: 460px;
@@ -415,7 +415,7 @@ footer p {
 .film__anim {
 	position: absolute;
 	top: -50px;
-	left: -50px;
+	left: 20px;
 	z-index: -1;
 	width: 768px;
 	height: 460px;
@@ -445,7 +445,7 @@ footer p {
 .web__anim {
 	position: absolute;
 	top: -230px;
-	left: -50px;
+	left: 1px;
 	z-index: 1;
 	width: 768px;
 	height: 460px;
