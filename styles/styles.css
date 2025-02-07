@@ -261,19 +261,23 @@ footer p {
 
 .pet__anim {
 	position: absolute;
-	left: 130px;
+	left: 260px;
 	z-index: -1;
-	width: 768px;
-	height: 460px;
+	width: 568px;
+	height: 360px;
 	background-image: url("../img/pets_mob_2x.png");
-	background-size: 500px;
+	background-size: 300px;
 	background-repeat: no-repeat;
-	background-position: bottom;
+	/* background-position: bottom; */
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.pet__anim {
 		left: 390px;
+		width: 768px;
+		height: 460px;
+		background-size: 500px;
+		background-position: bottom;
 	}
 }
 
@@ -290,20 +294,25 @@ footer p {
 
 .law__anim {
 	position: absolute;
-	top: -50px;
-	left: 30px;
+	top: 20px;
+	left: 230px;
 	z-index: -1;
-	width: 768px;
-	height: 560px;
+	width: 568px;
+	height: 360px;
 	background-image: url("../img/law.png");
-	background-size: 400px;
+	background-size: 300px;
 	background-repeat: no-repeat;
-	background-position: bottom;
+	/* background-position: bottom; */
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.law__anim {
+		top: -10px;
 		left: 310px;
+		width: 768px;
+		height: 560px;
+		background-size: 400px;
+		background-position: bottom;
 	}
 }
 
@@ -320,11 +329,10 @@ footer p {
 
 .cards__anim {
 	position: absolute;
-	top: -50px;
-	left: 100px;
+	left: 200px;
 	z-index: -1;
-	width: 768px;
-	height: 560px;
+	width: 568px;
+	height: 360px;
 	background-image: url("../img/icon_new.png");
 
 	background-size: 400px;
@@ -336,7 +344,10 @@ footer p {
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.cards__anim {
+		top: -50px;
 		left: 350px;
+		width: 768px;
+		height: 560px;
 	}
 }
 
@@ -387,19 +398,23 @@ footer p {
 .ice__anim {
 	position: absolute;
 	top: -50px;
-	left: 50px;
+	left: 200px;
 	z-index: -1;
-	width: 768px;
-	height: 460px;
+	width: 568px;
+	height: 360px;
 	background-image: url("../img/ice-cream-hero-170x219@2x.9e217ab3.png");
-	background-size: 500px;
+	background-size: 300px;
 	background-repeat: no-repeat;
-	background-position: bottom;
+	/* background-position: bottom; */
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.ice__anim {
 		left: 300px;
+		width: 768px;
+		height: 460px;
+		background-size: 500px;
+		background-position: bottom;
 	}
 }
 
@@ -416,20 +431,24 @@ footer p {
 
 .film__anim {
 	position: absolute;
-	top: -50px;
-	left: 20px;
+	left: 260px;
 	z-index: -1;
-	width: 768px;
-	height: 460px;
+	width: 568px;
+	height: 360px;
 	background-image: url("../img/camera-2029821_1280.png");
-	background-size: 300px;
+	background-size: 200px;
 	background-repeat: no-repeat;
-	background-position: bottom;
+	/* background-position: bottom; */
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.film__anim {
+		top: -50px;
 		left: 300px;
+		width: 768px;
+		height: 460px;
+		background-size: 300px;
+		background-position: bottom;
 	}
 }
 
@@ -446,21 +465,25 @@ footer p {
 
 .web__anim {
 	position: absolute;
-	top: -230px;
-	left: 1px;
+	top: -200px;
+	left: 50px;
 	z-index: 1;
-	width: 768px;
-	height: 460px;
+	width: 568px;
+	height: 360px;
 	background-image: url("../img/information-technology-5327553_1280.png");
-	background-size: 200px;
+	background-size: 150px;
 	background-repeat: no-repeat;
 	background-position: bottom;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.web__anim {
+		top: -250px;
 		left: 300px;
+		width: 768px;
+		height: 560px;
 		background-size: 300px;
+		background-position: bottom;
 	}
 }
 
