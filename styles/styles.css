@@ -544,7 +544,7 @@ footer p {
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.animated_element {
 		opacity: 0;
-		transform: translateX(-100px);
+		transform: translateX(100px);
 		transition: opacity 2s ease, transform 2s ease;
 	}
 }
