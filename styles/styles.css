@@ -44,16 +44,29 @@ body {
 	line-height: 1.6;
 }
 
+@keyframes gradientPulse {
+	0% {
+		background-size: 50% 50%;
+	}
+	50% {
+		background-size: 100% 100%;
+	}
+	100% {
+		background-size: 50% 50%;
+	}
+}
+
 .header {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	background: rgb(33, 51, 51);
-	background: radial-gradient(circle, rgba(33, 51, 51, 0.9668242296918768) 55%, rgba(0, 123, 255, 1) 100%);
+	background: radial-gradient(circle, rgba(33, 51, 51, 0.9668242296918768) 44%, rgba(0, 123, 255, 1) 100%);
+	background-size: 100% 100%;
 	color: #fff;
 	padding: 10px 0;
 	text-align: center;
 	box-shadow: 1px 3px 8px 2px #666363;
+	animation: gradientPulse 5s infinite ease-in-out;
 }
 
 @media screen and (min-width: 768px) {
@@ -211,7 +224,19 @@ footer p {
 
 .projects {
 	margin-bottom: 30px;
-	border-bottom: 2px solid black;
+	/* border-bottom: 2px solid black; */
+	padding: 30px;
+	width: 300px;
+	height: auto;
+	border-radius: 30px;
+	background: #e0e0e0;
+	box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+	.projects {
+		width: 500px;
+	}
 }
 
 .projects a {
@@ -250,7 +275,7 @@ footer p {
 
 @media screen and (min-width: 1024px) {
 	.brovko__anim {
-		left: 800px;
+		left: 600px;
 	}
 }
 
@@ -353,7 +378,7 @@ footer p {
 
 @media screen and (min-width: 1024px) {
 	.cards__anim {
-		left: 600px;
+		left: 500px;
 	}
 }
 
@@ -420,7 +445,7 @@ footer p {
 
 @media screen and (min-width: 1024px) {
 	.ice__anim {
-		left: 600px;
+		left: 550px;
 	}
 }
 
@@ -490,7 +515,7 @@ footer p {
 @media screen and (min-width: 1024px) {
 	.web__anim {
 		top: -150px;
-		left: 570px;
+		left: 500px;
 
 		background-size: 300px;
 	}
@@ -513,6 +538,7 @@ footer p {
 	transform: translateX(100px);
 	transition: opacity 1s ease, transform 1s ease;
 	pointer-events: none;
+	z-index: 1;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -526,7 +552,7 @@ footer p {
 @media screen and (min-width: 1024px) {
 	.animated_element {
 		opacity: 0;
-		transform: translateX(-500px);
+		transform: translateX(200px);
 		transition: opacity 2s ease, transform 3s ease;
 	}
 }
