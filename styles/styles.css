@@ -487,7 +487,7 @@ footer p {
 .ice__anim {
 	position: absolute;
 	top: -50px;
-	left: 200px;
+	left: 300px;
 	z-index: -1;
 	width: 568px;
 	height: 360px;
@@ -499,7 +499,7 @@ footer p {
 
 @media screen and (min-width: 425px) {
 	.ice__anim {
-		left: 250px;
+		left: 300px;
 	}
 }
 
@@ -567,7 +567,7 @@ footer p {
 .web__anim {
 	position: absolute;
 	top: -200px;
-	left: 50px;
+	left: 300px;
 	z-index: 1;
 	width: 568px;
 	height: 360px;
@@ -579,7 +579,7 @@ footer p {
 
 @media screen and (min-width: 425px) {
 	.web__anim {
-		left: 100px;
+		left: 300px;
 	}
 }
 
