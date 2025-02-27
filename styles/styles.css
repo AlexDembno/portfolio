@@ -145,6 +145,7 @@ a i:focus {
 	text-decoration: none;
 	color: inherit;
 	transition: transform 0.3s ease, color 0.3s ease;
+	animation: sh0 1.5s linear infinite;
 
 	&:hover {
 		animation: sh0 0.5s ease-in-out both;
@@ -158,23 +159,22 @@ a i:focus {
 
 @keyframes sh0 {
 	0% {
-		transform: rotate(0deg) translate3d(0, 0, 0);
+		transform: rotate(0deg);
 	}
-
-	25% {
-		transform: rotate(7deg) translate3d(0, 0, 0);
+	10% {
+		transform: rotate(7deg);
 	}
-
-	50% {
-		transform: rotate(-7deg) translate3d(0, 0, 0);
+	20% {
+		transform: rotate(-7deg);
 	}
-
-	75% {
-		transform: rotate(1deg) translate3d(0, 0, 0);
+	30% {
+		transform: rotate(1deg);
 	}
-
+	40% {
+		transform: rotate(0deg);
+	}
 	100% {
-		transform: rotate(0deg) translate3d(0, 0, 0);
+		transform: rotate(0deg);
 	}
 }
 
@@ -617,7 +617,7 @@ footer p {
 
 .animated_element {
 	opacity: 0;
-	transform: translateX(50px);
+	transform: translateX(100px);
 	transition: opacity 1s ease, transform 1s ease;
 	pointer-events: none;
 	z-index: 1;
