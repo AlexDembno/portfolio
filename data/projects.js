@@ -24,7 +24,7 @@ const projects = [
 			"Trello",
 		],
 		role: "Full-stack Developer",
-		link: "https://brovko.fun",
+		link: null,
 		github: null,
 	},
 	{
