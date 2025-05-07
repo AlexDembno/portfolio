@@ -292,6 +292,42 @@ footer p {
 	text-decoration: underline;
 }
 
+.chip {
+	margin: 0 auto;
+	position: relative;
+}
+
+.chip__anim {
+	position: absolute;
+	left: 250px;
+	z-index: -1;
+	width: 200px;
+	height: 150px;
+	background-image: url("../img/chip.png");
+	background-size: cover;
+}
+
+@media screen and (min-width: 425px) {
+	.chip__anim {
+		left: 300px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.chip__anim {
+		top: 50px;
+		left: 520px;
+		width: 268px;
+		height: 260px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.chip__anim {
+		left: 600px;
+	}
+}
+
 .brovko {
 	margin: 0 auto;
 	position: relative;
