@@ -292,6 +292,42 @@ footer p {
 	text-decoration: underline;
 }
 
+.kids {
+	margin: 0 auto;
+	position: relative;
+}
+
+.kids__anim {
+	position: absolute;
+	left: 250px;
+	z-index: -1;
+	width: 200px;
+	height: 150px;
+	background-image: url("../img/kids.png");
+	background-size: cover;
+}
+
+@media screen and (min-width: 425px) {
+	.kids__anim {
+		left: 400px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.kids__anim {
+		top: 50px;
+		left: 520px;
+		width: 368px;
+		height: 360px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.kids__anim {
+		left: 600px;
+	}
+}
+
 .chip {
 	margin: 0 auto;
 	position: relative;
@@ -309,7 +345,7 @@ footer p {
 
 @media screen and (min-width: 425px) {
 	.chip__anim {
-		left: 300px;
+		left: 400px;
 	}
 }
 
@@ -345,7 +381,7 @@ footer p {
 
 @media screen and (min-width: 425px) {
 	.brovko__anim {
-		left: 300px;
+		left: 400px;
 	}
 }
 
